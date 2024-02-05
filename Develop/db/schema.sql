@@ -24,4 +24,20 @@ CREATE TABLE product (
     stock INT NOT NULL DEFAULT 10,
     category_id INT,
     FOREIGN KEY (category_id) REFERENCES category(id)
-)
+);
+
+-- Set up the tag table structure
+
+CREATE TABLE tag (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tag_name VARCHAR(255)
+);
+
+-- Formulate the product tag table layout
+CREATE TABLE productTag (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  product_id INT,
+  tag_id INT,
+  FOREIGN KEY (product_id) REFERENCES product(id),
+  FOREIGN KEY (tag_id) REFERENCES tag(id)
+);
