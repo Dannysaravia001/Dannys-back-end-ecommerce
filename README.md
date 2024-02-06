@@ -22,6 +22,12 @@ npm install
 
 simply using npm install will download all the necessary packages that you would need for the project.
 
+after that you need to initialize the database using the db schema sql and run seeds.
+
+```bash
+npm run seed
+```
+
 
 ## Usage
 
