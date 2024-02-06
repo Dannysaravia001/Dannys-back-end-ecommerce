@@ -32,7 +32,6 @@ npm run seed
 ## Usage
 
 Follow the video down below to see a tutorial on how to use the app.
-Deployed Heroku app here 
 
 ## Authors
 
@@ -51,3 +50,4 @@ No liceneses used
 ![Screenshot2](<./img/seed.png>)
 
 ## videos-demo
+[Untitled_ Feb 6, 2024 4_55 PM.webm](https://github.com/Dannysaravia001/Dannys-back-end-ecommerce/assets/143926483/eaa4204e-5bf3-477a-80a2-a34bc989fa60)
